@@ -1,0 +1,112 @@
+	.navbar .navbar-toggler-icon {
+    opacity: 1;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+	
+	.spectrum-bg {
+	background: white;
+	background-blend-mode: screen;
+	}
+	
+	.spectrum-bg-nav {
+	background: url(https://wallpaperset.com/w/full/5/1/5/411222.jpg) bottom;
+	background-blend-mode: screen;
+	}
+	.spectrum-bg-foot {
+	background: url(https://wallpaperset.com/w/full/5/1/5/411222.jpg) bottom;
+	background-blend-mode: screen;
+	}
+   
+   #fotoC {
+	transform: scale(1.2);
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+   
+	.scale {
+    transition: 1s;
+	transform: scale(0.9);
+   }
+   .scale:hover {
+    transform: scale(1.2);
+   }
+   
+   .button {
+	width: 60px;
+	height: auto;
+	padding: 10px;
+	opacity: 1;
+	}
+	
+	.img, #fotoL, #fotoC, #fotoR {
+	width: 20%;
+	height: auto;
+	padding: 10px;
+	}
+	
+	img {
+	border-radius: 5%;
+	}
+	
+	.members {
+		font-size: larger;
+	}
+	
+	#mem_1, #mem_2, #mem_3, #mem_4, #mem_5 {
+		display: none;
+	}
+
+	fieldset {
+	margin-left: 450px;
+	margin-right: 450px;
+	margin-bottom: 30px;
+	padding: 20px 10px;
+	}
+		
+	label {
+	width: 110px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px;
+	font-size: 10pt
+	}
+		
+	input {
+	width: 300px;
+	}
+		
+	input[type=submit] {
+	width: 100px;
+	padding: 10px;
+	background-color: transparent;
+	border-color: white;
+	color: black;
+	}
+	
+	em {
+	color: #ff0000
+	}
+		
+	input, textarea, select {
+	width: 300px;
+	border-radius: 5px;
+	background: #FFF5EE
+	}
+
+	.history-li:nth-child(even){
+	background-color: #ffffff;
+	}
+
+	#but1:hover{
+	transform: translateX(-7px);
+	transition-duration: 0.5s;
+	}
+	
+	#but2:hover{
+	transform: translateX(7px);
+	transition-duration: 0.5s;
+	}
+	p,h1,h2,h3, h4,a,li {
+    	color: black;
+    	background-color: #ffffff;
+    }
